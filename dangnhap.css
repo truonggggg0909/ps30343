@@ -1,0 +1,259 @@
+.container{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 120px;
+    background-color: #ffba00;
+}
+.up{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+   
+}
+.up ul{
+    list-style: none;
+    margin: 0px;
+}
+.up ul li{
+    display: inline-block;
+    padding: 15px;
+    
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.up ul li a img{
+    vertical-align: middle;
+}
+.logo a{
+    padding-right: 300px;
+}
+.down{
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.search{
+    height: 35px;
+    width: 600px;
+    background-color: white;
+    margin-left: 50px;
+    
+    border-radius: 5px;
+    padding-right: 0px;
+}
+.search input{
+width: 500px;
+height: 30px;
+border: 0px;
+padding-left: 20px;
+font-size: 12px;
+}
+.search button {
+    height: 35px;
+    width: 40px;
+    border: 0px;
+    background-color: orange;
+    
+}
+.search button img{
+    width:10px;
+    height: auto;
+
+    vertical-align:  middle ;
+ }
+.down img{
+    vertical-align: middle;
+    padding-right: 0px;
+}
+.down a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    
+}
+a {
+    text-decoration: none;
+}
+.noidung{
+    width: 430px;
+    height: 390px ;
+    display: flex;
+    justify-content: center;
+background: url(/image/login_desktop_background.webp);
+   
+    border-radius: 10px;
+    padding: auto;
+    padding-bottom: 200px;
+    margin: 0 auto;
+    margin-top: 55px;
+    background-color: #f3f7fa;
+    box-shadow: 0 0 8px rgb(0 0 0 / 30%);
+    margin-bottom: 50px;
+}
+.form-login{
+    width: 300px;
+    height: 500px;
+ 
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+.form-login h1{
+    margin-bottom: 40px;
+    position: relative;
+}
+
+
+.dong1 input{
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+}
+.dong2 input{
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+}
+
+.noidung button{
+width: 295px;
+height: 25px;
+background-color: #ff8800;
+border-radius: 5px;
+border:  1px;
+
+}
+.noidung button a{
+   color: #ffff; 
+}
+
+.lo a img{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    padding-left: 40px;
+    margin-top: -25px;
+}
+h1{
+    text-align: center;
+    color: #ffba00;
+    padding-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8c8c8c;
+    font-size: 16px;
+}
+p{
+    text-align: center;
+    color: #2a70df;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.b2 a{
+    color: black;
+    padding-top: 10px;
+}
+.sd{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #8c8c8c;
+    
+}
+.conte{
+  margin-left: 200px;
+  background-image: url();
+}
+p a{
+    text-align: center;
+    color: #2a70df;
+}
+.row{
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 450px 450px 450px 450px;
+    padding-left: 200px;
+}
+
+.boxfooter1{
+    width: 50%;
+    float: left;
+    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxfooter2{
+    width: 50%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.boxfooter3{
+    width: 45%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.boxfooter4{
+    width: 40%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.dn{
+    padding-left: 390px;
+}
+.textcenter{
+   padding-left: 520px;
+   font-size: 10px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+.boxcenter2{
+    display: flex;
+    width: 300%;
+    font-size: 15px;
+}
+
+
+.add a{
+    text-decoration: none;
+    color: black;
+}
+.boxfooter4 a img{
+    display: inline-block;
+}

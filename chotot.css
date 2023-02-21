@@ -1,0 +1,237 @@
+    .container{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 120px;
+    background-color: #ffba00;
+}
+.up{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+   
+}
+.up ul{
+    list-style: none;
+    margin: 0px;
+}
+.up ul li{
+    display: inline-block;
+    padding: 15px;
+    
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.up ul li a img{
+    vertical-align: middle;
+}
+.logo a{
+    padding-right: 300px;
+}
+.down{
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.search{
+    height: 35px;
+    width: 600px;
+    background-color: white;
+    margin-left: 50px;
+    
+    border-radius: 5px;
+    padding-right: 0px;
+}
+.search input{
+width: 500px;
+height: 30px;
+border: 0px;
+padding-left: 20px;
+font-size: 12px;
+}
+.search button {
+    height: 35px;
+    width: 40px;
+    border: 0px;
+    background-color: orange;
+    
+}
+.search button img{
+    width:10px;
+    height: auto;
+
+    vertical-align:  middle ;
+ }
+.down img{
+    vertical-align: middle;
+    padding-right: 0px;
+}
+.down a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    
+}
+
+    
+
+.content{
+    width: 500px;
+    margin: 20px ;
+  height: 20px;
+  margin-left: 300px;
+ border: 0px;
+}
+.content img{
+    border-radius: 10px;
+}
+.dong1{
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  20px;
+    font-weight: bold;
+   
+}
+.hihi{
+    display: grid;
+    margin: 20px auto;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px;
+    padding-left: 20px;
+}
+.hihi a{
+    vertical-align: bottom;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+p{
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    
+}
+.baidang{
+    display: grid;
+    margin: 20px auto;
+    grid-template-columns:   250px 250px 280px 250px 250px;
+    grid-template-rows: 300px 250px;
+    padding-left: 10px;
+}
+h1{
+font-size: 15px;
+
+color: black;
+}
+h2{
+    color: red;
+    font-size: 25px;
+    
+}
+.baidang a{
+    text-decoration: none;
+}
+.xt a{
+    
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.row{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.boxcenter2{
+    width: 50%;
+    margin: 0 auto;
+   
+
+}
+.boxfooter1{
+    width: 50%;
+    float: left;
+}
+.boxfooter2{
+    width: 125%;
+    float: left;
+}
+.boxfooter3{
+    width: 125%;
+    float: left;
+}
+.boxfooter4{
+    width: 125%;
+    float: left;
+   
+}
+
+.textcenter{
+   padding-left: 350px;
+   font-size: 10px;
+   text-align: center;
+}
+.boxcenter2{
+    display: flex;
+    width: 300%;
+    font-size: 15px;
+}
+.dn{
+    padding-left: 390px;
+}
+
+.add a{
+    text-decoration: none;
+    color: black;
+}
+.boxfooter4 a img{
+    display: inline-block;
+}
+.cmenu{
+    position: relative;
+}
+.cmenu ul ul{
+    position: absolute;
+    display: none;
+}
+.cmenu ul ul a{
+    display: block;
+}
+.cmenu>ul>li:hover>ul{
+    display: block;
+}
+.cmenu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 130px;
+    background-color: white;
+    box-shadow: 0px 0px 1px gray;
+}
+.cmenu ul ul a{
+    line-height: 30px;
+    color:black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 0px 10px;
+
+}
+.cmenu ul ul a:hover{
+    background-color:#ffba00;
+    color: white;
+}
